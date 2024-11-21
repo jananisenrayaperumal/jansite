@@ -1,0 +1,41 @@
+{
+	"name": "jansite",
+	"version": "1.0.0",
+	"description": "This is a personal blog website",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JiyaJanani/jansite.git"
+	},
+	"author": "Janani Senrayaperumal",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JiyaJanani/jansite/issues"
+	},
+	"homepage": "https://github.com/JiyaJanani/jansite#readme",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build html",
+    "test": "jest"
+  },
+	"devDependencies": {
+		"parcel": "^2.13.0",
+		"process": "^0.11.10"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
