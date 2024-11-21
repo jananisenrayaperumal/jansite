@@ -13,14 +13,16 @@
 		"url": "https://github.com/JiyaJanani/jansite/issues"
 	},
 	"homepage": "https://github.com/JiyaJanani/jansite#readme",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build html",
-    "test": "jest"
-  },
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build html",
+		"test": "jest"
+	},
 	"devDependencies": {
 		"parcel": "^2.13.0",
-		"process": "^0.11.10"
+		"postcss": "^8.4.49",
+		"process": "^0.11.10",
+		"tailwindcss": "^3.4.15"
 	},
 	"dependencies": {
 		"react": "^18.3.1",
