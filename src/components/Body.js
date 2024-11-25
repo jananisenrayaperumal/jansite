@@ -1,6 +1,5 @@
 import anime from "../img/women-avatar.avif";
 import janImg from "../img/women-avatar.jpeg";
-import jan1 from "../img/janani.jpg";
 import { TypeAnimation } from "react-type-animation";
 import ContactLinks from "./ContactLinks";
 
