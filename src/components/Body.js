@@ -5,30 +5,32 @@ import ContactLinks from "./ContactLinks";
 
 const Body = () => {
 	return (
-		<div className="grid grid-flow-col w-full grid-cols-[40%_60%x] gap-10 items-center justify-center mt-10">
-			<div className="w-52 h-52 bg-gray-700 rounded-full shadow-lg overflow-hidden">
+		<div
+			id="home"
+			className="grid w-full gap-8 items-center justify-center mt-10 
+                grid-cols-1 md:grid-cols-[auto_auto] md:gap-16">
+			{/* Image Section */}
+			<div className="w-52 h-52 bg-gray-700 rounded-full shadow-lg overflow-hidden mx-auto md:mx-0">
 				<img
-					className="w-full h-full border-4 object-cover object-top rounded-full border-gray-800"
+					className="w-full h-full border-2 object-cover object-top rounded-full border-gray-400"
 					src={janImg}
 					alt="circle"
 				/>
 			</div>
 
-			<div className="text-center pt-4 w-[500px]">
+			{/* Text and Animation Section */}
+			<div className="text-center pt-4 w-full md:text-left md:w-[450px] lg:w-[450px] flex flex-col justify-center items-center">
 				<TypeAnimation
 					sequence={[
-						// Same substring at the start will only be typed once, initially
-						"I am a web developer",
+						"I craft web experiences",
 						1000,
-						"I am a influener",
+						"I build digital solutions",
+						1000,
+						"I bring ideas to life",
+						1000,
+						"I am always learning",
 						1000,
 						"I am a cat parent",
-						1000,
-						"I am a traveller",
-						1000,
-						"I am a animal lover",
-						1000,
-						"I am a good human being!!",
 						1000
 					]}
 					speed={50}

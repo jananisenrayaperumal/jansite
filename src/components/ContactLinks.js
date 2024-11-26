@@ -17,7 +17,7 @@ const ContactLinks = () => {
 				href="https://www.linkedin.com/in/jiya-janani/"
 				target="_blank"
 				rel="noopener noreferrer"
-				className="flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-500 transition">
+				className="flex items-center px-4 py-2 bg-linkedin-blue text-white rounded-lg shadow hover:bg-blue-500 transition">
 				<span>LinkedIn</span>
 			</a>
 

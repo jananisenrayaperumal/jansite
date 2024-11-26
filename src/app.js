@@ -33,7 +33,9 @@ const AppLayout = () => {
 				<Body />
 				<AboutMe />
 				<TechStack />
-				<h2 className="text-3xl font-bold text-center m-4 text-gray-800">Projects</h2>
+				<h2 id="projects" className="text-3xl font-bold text-center m-4 text-gray-800">
+					Projects
+				</h2>
 				<ProjectCard
 					title={project2.title}
 					description={project2.description}
