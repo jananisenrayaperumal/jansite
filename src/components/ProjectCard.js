@@ -31,14 +31,14 @@ const ProjectCard = ({ title, description, image, techStack, links }) => {
 					{/* Links */}
 					<div className="flex justify-between items-center">
 						<a
-							href="https://github.com/your-repo"
+							href={links.code}
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-blue-500 hover:underline text-sm">
 							Code
 						</a>
 						<a
-							href="https://your-live-demo.com"
+							href={links.liveDemo}
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-blue-500 hover:underline text-sm">
