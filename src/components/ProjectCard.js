@@ -8,8 +8,8 @@ const ProjectCard = ({ title, description, image, techStack, links }) => {
 				<img
 					src={image}
 					alt="Project"
-					className="md:w-1/2 h-56 object-cover object-top object-fit rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-110"
-				/>{" "}
+					className="w-96 h-96 object-fit rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-105"
+				/>
 				{/* Project Details */}
 				<div className=" p-4 flex flex-col justify-between md:w-1/2">
 					<h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -22,10 +22,13 @@ const ProjectCard = ({ title, description, image, techStack, links }) => {
 
 					{/* Tech Stack */}
 					<div className="flex flex-wrap space-x-2 mb-4">
-						<span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">React</span>
-						<span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">Vercel</span>
-						<span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">TMDB-API</span>
-						<span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">Firebase</span>
+						{techStack.map(tech => {
+							return (
+								<span className="px-3 py-0.5 text-sm bg-gray-200 text-gray-700 rounded-full m-1">
+									{tech}
+								</span>
+							);
+						})}
 					</div>
 
 					{/* Links */}

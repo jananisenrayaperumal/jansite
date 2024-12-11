@@ -2,7 +2,6 @@
 	"name": "jansite",
 	"version": "1.0.0",
 	"description": "This is a personal blog website",
-	"main": "index.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/JiyaJanani/jansite.git"
@@ -12,14 +11,17 @@
 	"bugs": {
 		"url": "https://github.com/JiyaJanani/jansite/issues"
 	},
-	"homepage": "https://github.com/JiyaJanani/jansite#readme",
+	"homepage": "https://JiyaJanani.github.io/jansite",
 	"scripts": {
 		"start": "parcel index.html",
-		"build": "parcel build html",
-		"test": "jest"
+		"build": "parcel build index.html",
+		"test": "jest",
+		"predeploy": "parcel build index.html --public-url ./",
+		"deploy": "gh-pages -d dist"
 	},
 	"devDependencies": {
-		"parcel": "^2.13.0",
+		"gh-pages": "^6.2.0",
+		"parcel": "^2.13.2",
 		"postcss": "^8.4.49",
 		"process": "^0.11.10",
 		"tailwindcss": "^3.4.15"

@@ -24,6 +24,7 @@ const ContactLinks = () => {
 			{/* Resume */}
 			<a
 				href="https://drive.google.com/file/d/1QX4lTw7q6HNRzltm09CQS_qBohB1_J7L/view?usp=drive_link"
+				target="_blank"
 				download
 				className="flex items-center px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-500 transition">
 				<span>Resume</span>

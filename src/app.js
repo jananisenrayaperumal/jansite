@@ -46,9 +46,9 @@ const AppLayout = () => {
 	const johndeereInfo = {
 		title: "John Deere  E-commerce",
 		description:
-			"Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
+			"I developed the cart and checkout module for John Deere’s e-commerce platform, improving responsiveness with mobile-first design and integrating React.js into SAP Hybris for a more dynamic, interactive UI. This boosted performance, especially for mobile users.",
 		image: deere,
-		techStack: ["React", "Vercel", "TMDB-API", "Firebase"],
+		techStack: ["React", "SAP Hybris", "Javascript", "CSS", "HTML", "jQuery"],
 		links: { code: "https://github.com/JiyaJanani", liveDemo: "https://shop.deere.com/" }
 	};
 	const MSBingInfo = {
