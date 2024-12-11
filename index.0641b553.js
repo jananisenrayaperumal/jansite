@@ -2978,7 +2978,7 @@ var _msbingPngDefault = parcelHelpers.interopDefault(_msbingPng);
 const AppLayout = ()=>{
     const minecraftInfo = {
         title: "Minecraft",
-        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Nenpm starttflix streaming theme.",
+        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
         image: (0, _minecraftPngDefault.default),
         techStack: [
             "C++",
@@ -3025,13 +3025,15 @@ const AppLayout = ()=>{
     };
     const johndeereInfo = {
         title: "John Deere  E-commerce",
-        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
+        description: "I developed the cart and checkout module for John Deere\u2019s e-commerce platform, improving responsiveness with mobile-first design and integrating React.js into SAP Hybris for a more dynamic, interactive UI. This boosted performance, especially for mobile users.",
         image: (0, _deerePngDefault.default),
         techStack: [
             "React",
-            "Vercel",
-            "TMDB-API",
-            "Firebase"
+            "SAP Hybris",
+            "Javascript",
+            "CSS",
+            "HTML",
+            "jQuery"
         ],
         links: {
             code: "https://github.com/JiyaJanani",
@@ -27463,7 +27465,7 @@ const Header = ()=>{
     _s();
     const [menuOpen, setMenuOpen] = (0, _react.useState)(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex justify-between items-center gap-6 p-8 bg-amber-400 sticky top-0 z-50",
+        className: "flex justify-between items-center gap-6 p-5 md:p-8 bg-amber-400 sticky top-0 z-50 ",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                 className: "text-3xl font-extrabold",
@@ -31641,13 +31643,12 @@ const ProjectCard = ({ title, description, image, techStack, links })=>{
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: image,
                     alt: "Project",
-                    className: "md:w-1/2 h-56 object-cover object-top object-fit rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-110"
+                    className: "w-96 h-96 object-fit rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-105"
                 }, void 0, false, {
                     fileName: "src/components/ProjectCard.js",
                     lineNumber: 8,
                     columnNumber: 5
                 }, undefined),
-                " ",
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: " p-4 flex flex-col justify-between md:w-1/2",
                     children: [
@@ -31672,41 +31673,17 @@ const ProjectCard = ({ title, description, image, techStack, links })=>{
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "flex flex-wrap space-x-2 mb-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full",
-                                    children: "React"
-                                }, void 0, false, {
-                                    fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 25,
-                                    columnNumber: 7
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full",
-                                    children: "Vercel"
-                                }, void 0, false, {
-                                    fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 26,
-                                    columnNumber: 7
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full",
-                                    children: "TMDB-API"
+                            children: techStack.map((tech)=>{
+                                return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "px-3 py-0.5 text-sm bg-gray-200 text-gray-700 rounded-full m-1",
+                                    children: tech
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectCard.js",
                                     lineNumber: 27,
-                                    columnNumber: 7
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full",
-                                    children: "Firebase"
-                                }, void 0, false, {
-                                    fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 28,
-                                    columnNumber: 7
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
+                                    columnNumber: 9
+                                }, undefined);
+                            })
+                        }, void 0, false, {
                             fileName: "src/components/ProjectCard.js",
                             lineNumber: 24,
                             columnNumber: 6
@@ -31722,7 +31699,7 @@ const ProjectCard = ({ title, description, image, techStack, links })=>{
                                     children: "Code"
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 33,
+                                    lineNumber: 36,
                                     columnNumber: 7
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -31733,13 +31710,13 @@ const ProjectCard = ({ title, description, image, techStack, links })=>{
                                     children: "Live Demo"
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 40,
+                                    lineNumber: 43,
                                     columnNumber: 7
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/ProjectCard.js",
-                            lineNumber: 32,
+                            lineNumber: 35,
                             columnNumber: 6
                         }, undefined)
                     ]
