@@ -2986,8 +2986,8 @@ const AppLayout = ()=>{
         techStack: [
             "React",
             "TailwindCSS",
-            "WebSocket",
-            "LLM"
+            "LLM",
+            "WebSocket"
         ],
         links: {
             code: "https://github.com/JiyaJanani",
@@ -31698,10 +31698,10 @@ const ProjectCard = ({ projectInfo })=>{
                             columnNumber: 6
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex flex-wrap space-x-2 mb-4",
+                            className: "flex flex-wrap mb-2",
                             children: techStack && techStack.map((tech)=>{
                                 return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "px-3 py-0.5 text-sm bg-gray-200 text-gray-700 rounded-full m-1",
+                                    className: "px-2 py-0.5 text-sm bg-gray-200 text-gray-700 rounded-full m-1",
                                     children: tech
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectCard.js",
