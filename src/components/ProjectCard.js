@@ -27,11 +27,11 @@ const ProjectCard = ({ projectInfo }) => {
 					</p>
 
 					{/* Tech Stack */}
-					<div className="flex flex-wrap space-x-2 mb-4">
+					<div className="flex flex-wrap mb-2">
 						{techStack &&
 							techStack.map(tech => {
 								return (
-									<span className="px-3 py-0.5 text-sm bg-gray-200 text-gray-700 rounded-full m-1">
+									<span className="px-2 py-0.5 text-sm bg-gray-200 text-gray-700 rounded-full m-1">
 										{tech}
 									</span>
 								);

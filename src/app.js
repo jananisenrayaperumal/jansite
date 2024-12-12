@@ -21,7 +21,7 @@ const AppLayout = () => {
 		description:
 			"Developed dynamic, runtime response-based UIs for Sarvam AI applications, including a travel app that adapts its UI based on LLM responses. Additionally, worked on Tution Anna, an educational app that highlights key sections of PDFs for improved learning. Built an interactive dashboard UI to visualize data from running apps and LLMs, enhancing decision-making and user interaction.",
 		image: sarvamImg,
-		techStack: ["React", "TailwindCSS", "WebSocket", "LLM"],
+		techStack: ["React", "TailwindCSS", "LLM", "WebSocket"],
 		links: { code: "https://github.com/JiyaJanani", liveDemo: "https://www.sarvam.ai/" }
 	};
 
