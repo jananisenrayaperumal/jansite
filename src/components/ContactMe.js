@@ -14,13 +14,13 @@ const ContactMe = () => {
 					<div className="flex items-center space-x-3">
 						<FaEnvelope className="text-xl text-gray-700" />
 						<a href="mailto:jansen@gmail.com" className="text-lg hover:underline">
-							jansen@gmail.com
+							jananisenrayaperumal@gmail.com
 						</a>
 					</div>
 					<div className="flex items-center space-x-3">
 						<FaPhoneAlt className="text-xl text-gray-700" />
 						<a href="tel:+1234567890" className="text-lg hover:underline">
-							+1 (234) 567-890
+							+1 (613) 390-2665
 						</a>
 					</div>
 				</div>
