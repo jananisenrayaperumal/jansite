@@ -49,7 +49,7 @@ const AppLayout = () => {
 		description:
 			"Developed a B2B portal for Diamond Foundry to monitor real-time inventory and sales. The portal enables wholesale businesses to easily browse diamonds, place bulk orders, and access specific pricing and features based on customer accounts. Designed a seamless experience across devices, incorporating user-specific filters and secure login. The portal has helped increase sales and streamline operations, generating over half a million in sales within the first six months.",
 		image: df1,
-		techStack: ["React", "Vercel", "TMDB-API", "Firebase"],
+		techStack: ["React", "NextJs", "Redux", "SQL"],
 		links: {
 			code: "https://github.com/JiyaJanani",
 			liveDemo: "https://ameliebellefilledesign.com/casestudy-diamondfoundry-b2b/",
