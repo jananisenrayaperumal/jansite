@@ -2975,16 +2975,34 @@ var _scbankPng = require("./project-images/scbank.png");
 var _scbankPngDefault = parcelHelpers.interopDefault(_scbankPng);
 var _msbingPng = require("./project-images/MSBing.png");
 var _msbingPngDefault = parcelHelpers.interopDefault(_msbingPng);
+var _sarvamWebp = require("./project-images/sarvam.webp");
+var _sarvamWebpDefault = parcelHelpers.interopDefault(_sarvamWebp);
 const AppLayout = ()=>{
+    const sarvamAIInfo = {
+        domain: "AI-driven Applications",
+        title: "Sarvam AI",
+        description: "Developed dynamic, runtime response-based UIs for Sarvam AI applications, including a travel app that adapts its UI based on LLM responses. Additionally, worked on Tution Anna, an educational app that highlights key sections of PDFs for improved learning. Built an interactive dashboard UI to visualize data from running apps and LLMs, enhancing decision-making and user interaction.",
+        image: (0, _sarvamWebpDefault.default),
+        techStack: [
+            "React",
+            "TailwindCSS",
+            "WebSocket",
+            "LLM"
+        ],
+        links: {
+            code: "https://github.com/JiyaJanani",
+            liveDemo: "https://www.sarvam.ai/"
+        }
+    };
     const minecraftInfo = {
         title: "Minecraft",
-        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
+        domain: "Gaming",
+        description: "Developed a trial version of Minecraft, including hints screens for Survival and Creative modes that appear as the game progresses. Packaged the game as a free trial version to allow players to experience key features. Conducted extensive developer testing on multiple platforms, including Windows, Android, iOS, Xbox, PlayStation, VR, and Nintendo, ensuring smooth gameplay and compatibility across devices.",
         image: (0, _minecraftPngDefault.default),
         techStack: [
             "C++",
-            "Vercel",
-            "TMDB-API",
-            "Firebase"
+            "Java",
+            "Unity"
         ],
         links: {
             code: "https://github.com/JiyaJanani",
@@ -2992,14 +3010,16 @@ const AppLayout = ()=>{
         }
     };
     const neouInfo = {
-        title: "Neou-Fitness",
-        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
+        title: "Neou",
+        domain: "Fitness Web-app",
+        description: "Developed a scalable, high-performance web solution for Neou Fitness, focusing on a content management system (CMS). I designed the core structure and built reusable UI components. Implemented a secure sign-in flow with Firebase authentication, enabling Google and Apple logins. Integrated Stripe for Apple Pay and Google Pay to streamline payments. Also, added Segment for user activity tracking, enabling data-driven decisions. Mentored junior developers to foster collaboration and enhance team performance.",
         image: (0, _neou2PngDefault.default),
         techStack: [
             "React",
-            "Vercel",
-            "TMDB-API",
-            "Firebase"
+            "Typescript",
+            "Jenkins",
+            "Redux-saga",
+            "Webpack"
         ],
         links: {
             code: "https://github.com/JiyaJanani",
@@ -3007,8 +3027,9 @@ const AppLayout = ()=>{
         }
     };
     const diamondfoundaryInfo = {
-        title: "DiamondFoundary - b2b business portal",
-        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
+        domain: "B2B business portal",
+        title: "DiamondFoundary",
+        description: "Developed a B2B portal for Diamond Foundry to monitor real-time inventory and sales. The portal enables wholesale businesses to easily browse diamonds, place bulk orders, and access specific pricing and features based on customer accounts. Designed a seamless experience across devices, incorporating user-specific filters and secure login. The portal has helped increase sales and streamline operations, generating over half a million in sales within the first six months.",
         image: (0, _df1PngDefault.default),
         techStack: [
             "React",
@@ -3024,8 +3045,9 @@ const AppLayout = ()=>{
         }
     };
     const johndeereInfo = {
-        title: "John Deere  E-commerce",
-        description: "I developed the cart and checkout module for John Deere\u2019s e-commerce platform, improving responsiveness with mobile-first design and integrating React.js into SAP Hybris for a more dynamic, interactive UI. This boosted performance, especially for mobile users.",
+        title: "John Deere",
+        domain: " E-commerce",
+        description: "Improved the cart and checkout module for John Deere\u2019s e-commerce platform by integrating React.js into SAP Hybris, enhancing the dynamic and interactive nature of the UI. Leveraged microfrontend architecture to improve modularity and scalability. Focused on boosting responsiveness with a mobile-first design approach, significantly enhancing performance for mobile users. This resulted in faster load times and an overall better user experience across devices.",
         image: (0, _deerePngDefault.default),
         techStack: [
             "React",
@@ -3041,14 +3063,18 @@ const AppLayout = ()=>{
         }
     };
     const MSBingInfo = {
-        title: "Microsoft Bing - Grocery and Receipt scanner - Reseach Product",
-        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
+        title: "Microsoft Bing - Grocery and Receipt scanner ",
+        domain: "Reseach Work",
+        description: "This was a research-based project, initially developed in React Native and later converted into a Progressive Web App (PWA). It incorporates mobile camera functionality within the web app for scanning grocery receipts and offering cashback. Deployed as a mini-app inside the Bing browser, it has now been released as a cashback feature in Microsoft Edge, providing users with a unique and seamless experience across platforms.",
         image: (0, _msbingPngDefault.default),
         techStack: [
             "React",
-            "Vercel",
-            "TMDB-API",
-            "Firebase"
+            "React-Native",
+            "Hooks",
+            "Azure",
+            "SASS",
+            "React-Contect",
+            "ReSub"
         ],
         links: {
             code: "https://github.com/JiyaJanani",
@@ -3056,14 +3082,17 @@ const AppLayout = ()=>{
         }
     };
     const SCBankInfo = {
-        title: "Standrard Charted Bank - Banking Product",
-        description: "Built with React, Firebase, and TMDB-API, Crackflix shows a trending movie list with trailers, mimicking the Netflix streaming theme.",
+        title: "Standrard Charted Bank",
+        domain: "Banking Product",
+        description: "Developed the credit and debit card management module for Standard Chartered Bank, enhancing user experience and integration. Used React and GraphQL to optimize performance and streamline data fetching. Applied TailwindCSS for a mobile-first, responsive design. Focused on security, implementing safe data handling practices, and comprehensive integration tests for reliability, performance, and quality assurance.",
         image: (0, _scbankPngDefault.default),
         techStack: [
             "React",
-            "Vercel",
-            "TMDB-API",
-            "Firebase"
+            "Typescript",
+            "Javascript",
+            "GraphQL",
+            "Rest-API",
+            "TailwindCSS"
         ],
         links: {
             code: "https://github.com/JiyaJanani",
@@ -3075,7 +3104,7 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 72,
+                lineNumber: 89,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3083,17 +3112,17 @@ const AppLayout = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 74,
+                        lineNumber: 91,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutMeDefault.default), {}, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 75,
+                        lineNumber: 92,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _techStackDefault.default), {}, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 76,
+                        lineNumber: 93,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -3102,90 +3131,73 @@ const AppLayout = ()=>{
                         children: "Projects"
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 77,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
-                        title: johndeereInfo.title,
-                        description: johndeereInfo.description,
-                        image: johndeereInfo.image,
-                        techStack: johndeereInfo.techStack,
-                        links: johndeereInfo.links
-                    }, void 0, false, {
-                        fileName: "src/app.js",
-                        lineNumber: 80,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
-                        title: SCBankInfo.title,
-                        description: SCBankInfo.description,
-                        image: SCBankInfo.image,
-                        techStack: SCBankInfo.techStack,
-                        links: SCBankInfo.links
-                    }, void 0, false, {
-                        fileName: "src/app.js",
-                        lineNumber: 87,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
-                        title: MSBingInfo.title,
-                        description: MSBingInfo.description,
-                        image: MSBingInfo.image,
-                        techStack: MSBingInfo.techStack,
-                        links: MSBingInfo.links
-                    }, void 0, false, {
-                        fileName: "src/app.js",
                         lineNumber: 94,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
-                        title: neouInfo.title,
-                        description: neouInfo.description,
-                        image: neouInfo.image,
-                        techStack: neouInfo.techStack,
-                        links: neouInfo.links
+                        projectInfo: sarvamAIInfo
+                    }, void 0, false, {
+                        fileName: "src/app.js",
+                        lineNumber: 97,
+                        columnNumber: 5
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
+                        projectInfo: johndeereInfo
+                    }, void 0, false, {
+                        fileName: "src/app.js",
+                        lineNumber: 98,
+                        columnNumber: 5
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
+                        projectInfo: SCBankInfo
+                    }, void 0, false, {
+                        fileName: "src/app.js",
+                        lineNumber: 99,
+                        columnNumber: 5
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
+                        projectInfo: MSBingInfo
+                    }, void 0, false, {
+                        fileName: "src/app.js",
+                        lineNumber: 100,
+                        columnNumber: 5
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
+                        projectInfo: neouInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
                         lineNumber: 101,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
-                        title: diamondfoundaryInfo.title,
-                        description: diamondfoundaryInfo.description,
-                        image: diamondfoundaryInfo.image,
-                        techStack: diamondfoundaryInfo.techStack,
-                        links: diamondfoundaryInfo.links
+                        projectInfo: diamondfoundaryInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 108,
+                        lineNumber: 102,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
-                        title: minecraftInfo.title,
-                        description: minecraftInfo.description,
-                        image: minecraftInfo.image,
-                        techStack: minecraftInfo.techStack,
-                        links: minecraftInfo.links
+                        projectInfo: minecraftInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 115,
+                        lineNumber: 103,
                         columnNumber: 5
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/app.js",
-                lineNumber: 73,
+                lineNumber: 90,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactMeDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 123,
+                lineNumber: 105,
                 columnNumber: 4
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app.js",
-        lineNumber: 71,
+        lineNumber: 88,
         columnNumber: 3
     }, undefined);
 };
@@ -3193,7 +3205,7 @@ _c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 130,
+    lineNumber: 112,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3204,7 +3216,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/TechStack":"3Bqtb","./components/AboutMe":"iueDV","./components/ProjectCard":"hPo2v","./components/ContactMe":"5l8U9","./project-images/neou2.png":"kO0AR","./project-images/minecraft.png":"bwxi0","./project-images/df1.png":"3ynJv","./project-images/deere.png":"lwUHH","./project-images/scbank.png":"7UQDT","./project-images/MSBing.png":"kcoWy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/TechStack":"3Bqtb","./components/AboutMe":"iueDV","./components/ProjectCard":"hPo2v","./components/ContactMe":"5l8U9","./project-images/neou2.png":"kO0AR","./project-images/minecraft.png":"bwxi0","./project-images/df1.png":"3ynJv","./project-images/deere.png":"lwUHH","./project-images/scbank.png":"7UQDT","./project-images/MSBing.png":"kcoWy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./project-images/sarvam.webp":"hsoWY"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -31634,106 +31646,120 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const ProjectCard = ({ title, description, image, techStack, links })=>{
+const ProjectCard = ({ projectInfo })=>{
+    const { title, description, image, techStack, links, domain } = projectInfo;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "max-w-4xl rounded-lg shadow-lg overflow-hidden bg-white m-4 p-4",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex flex-col md:flex-row gap-4",
+            className: "flex flex-col p-4 md:flex-row gap-4",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "Project",
-                    className: "w-96 h-96 object-fit rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-105"
-                }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            className: "text-2xl font-semibold text-gray-800 mb-2",
+                            children: domain
+                        }, void 0, false, {
+                            fileName: "src/components/ProjectCard.js",
+                            lineNumber: 10,
+                            columnNumber: 6
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: image,
+                            alt: "Project",
+                            className: "w-96 h-96 object-fit rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-105"
+                        }, void 0, false, {
+                            fileName: "src/components/ProjectCard.js",
+                            lineNumber: 13,
+                            columnNumber: 6
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/ProjectCard.js",
-                    lineNumber: 8,
+                    lineNumber: 9,
                     columnNumber: 5
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: " p-4 flex flex-col justify-between md:w-1/2",
+                    className: "p-4 flex flex-col justify-between md:w-1/2",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                             className: "text-xl font-semibold text-gray-800 mb-2",
                             children: title
                         }, void 0, false, {
                             fileName: "src/components/ProjectCard.js",
-                            lineNumber: 15,
+                            lineNumber: 22,
                             columnNumber: 6
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             className: "text-gray-600 text-base mb-4",
-                            children: [
-                                description,
-                                description
-                            ]
-                        }, void 0, true, {
+                            children: description
+                        }, void 0, false, {
                             fileName: "src/components/ProjectCard.js",
-                            lineNumber: 18,
+                            lineNumber: 25,
                             columnNumber: 6
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "flex flex-wrap space-x-2 mb-4",
-                            children: techStack.map((tech)=>{
+                            children: techStack && techStack.map((tech)=>{
                                 return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                     className: "px-3 py-0.5 text-sm bg-gray-200 text-gray-700 rounded-full m-1",
                                     children: tech
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 27,
-                                    columnNumber: 9
+                                    lineNumber: 34,
+                                    columnNumber: 10
                                 }, undefined);
                             })
                         }, void 0, false, {
                             fileName: "src/components/ProjectCard.js",
-                            lineNumber: 24,
+                            lineNumber: 30,
                             columnNumber: 6
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "flex justify-between items-center",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: links.code,
+                                    href: links && links.code,
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className: "text-blue-500 hover:underline text-sm",
                                     children: "Code"
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 36,
+                                    lineNumber: 43,
                                     columnNumber: 7
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: links.liveDemo,
+                                    href: links && links.liveDemo,
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className: "text-blue-500 hover:underline text-sm",
                                     children: "Live Demo"
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectCard.js",
-                                    lineNumber: 43,
+                                    lineNumber: 50,
                                     columnNumber: 7
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/ProjectCard.js",
-                            lineNumber: 35,
+                            lineNumber: 42,
                             columnNumber: 6
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/ProjectCard.js",
-                    lineNumber: 14,
+                    lineNumber: 21,
                     columnNumber: 5
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/ProjectCard.js",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 4
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/ProjectCard.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 3
     }, undefined);
 };
@@ -31799,7 +31825,7 @@ const ContactMe = ()=>{
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     href: "mailto:jansen@gmail.com",
                                     className: "text-lg hover:underline",
-                                    children: "jansen@gmail.com"
+                                    children: "jananisenrayaperumal@gmail.com"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactMe.js",
                                     lineNumber: 16,
@@ -31824,7 +31850,7 @@ const ContactMe = ()=>{
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     href: "tel:+1234567890",
                                     className: "text-lg hover:underline",
-                                    children: "+1 (234) 567-890"
+                                    children: "+1 (613) 390-2665"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactMe.js",
                                     lineNumber: 22,
@@ -61263,6 +61289,9 @@ module.exports = require("cd547ccd0501339f").getBundleURL('lPpKD') + "scbank.55d
 },{"cd547ccd0501339f":"lgJ39"}],"kcoWy":[function(require,module,exports,__globalThis) {
 module.exports = require("abf1f68bc45c52e2").getBundleURL('lPpKD') + "MSBing.07a6919d.png" + "?" + Date.now();
 
-},{"abf1f68bc45c52e2":"lgJ39"}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
+},{"abf1f68bc45c52e2":"lgJ39"}],"hsoWY":[function(require,module,exports,__globalThis) {
+module.exports = require("54c5741137caad73").getBundleURL('lPpKD') + "sarvam.24145f15.webp" + "?" + Date.now();
+
+},{"54c5741137caad73":"lgJ39"}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
 
 //# sourceMappingURL=index.0641b553.js.map

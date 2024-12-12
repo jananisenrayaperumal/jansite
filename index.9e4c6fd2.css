@@ -286,14 +286,6 @@ img, video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
 .sticky {
   position: sticky;
 }
@@ -306,10 +298,6 @@ img, video {
   top: 0;
 }
 
-.left-1\/2 {
-  left: 50%;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -318,12 +306,12 @@ img, video {
   z-index: 50;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .m-1 {
   margin: .25rem;
+}
+
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-auto {
@@ -375,20 +363,28 @@ img, video {
   height: 13rem;
 }
 
-.h-56 {
-  height: 14rem;
+.h-96 {
+  height: 24rem;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-48 {
-  height: 12rem;
+.h-9 {
+  height: 2.25rem;
 }
 
-.h-96 {
-  height: 24rem;
+.h-80 {
+  height: 20rem;
+}
+
+.max-h-96 {
+  max-height: 24rem;
+}
+
+.min-h-96 {
+  min-height: 24rem;
 }
 
 .w-52 {
@@ -399,20 +395,20 @@ img, video {
   width: 1.5rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-48 {
-  width: 12rem;
+.w-80 {
+  width: 20rem;
 }
 
-.w-56 {
-  width: 14rem;
-}
-
-.w-96 {
-  width: 24rem;
+.min-w-96 {
+  min-width: 24rem;
 }
 
 .max-w-3xl {
@@ -423,14 +419,8 @@ img, video {
   max-width: 56rem;
 }
 
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-2 {
-  --tw-translate-y: .5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.max-w-96 {
+  max-width: 24rem;
 }
 
 .transform {
@@ -477,10 +467,6 @@ img, video {
   gap: 2rem;
 }
 
-.gap-2 {
-  gap: .5rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(.5rem * var(--tw-space-x-reverse));
@@ -513,10 +499,6 @@ img, video {
 
 .rounded-xl {
   border-radius: .75rem;
-}
-
-.rounded {
-  border-radius: .25rem;
 }
 
 .border-2 {
@@ -578,6 +560,11 @@ img, video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-lime-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 230 53 / var(--tw-bg-opacity, 1));
+}
+
 .object-cover {
   object-fit: cover;
 }
@@ -590,16 +577,8 @@ img, video {
   padding: 1rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-0 {
-  padding: 0;
+.p-5 {
+  padding: 1.25rem;
 }
 
 .p-1 {
@@ -608,10 +587,6 @@ img, video {
 
 .p-2 {
   padding: .5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-3 {
@@ -629,9 +604,9 @@ img, video {
   padding-right: 1.5rem;
 }
 
-.py-1 {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+.py-0\.5 {
+  padding-top: .125rem;
+  padding-bottom: .125rem;
 }
 
 .py-10 {
@@ -647,16 +622,6 @@ img, video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-2 {
-  padding-left: .5rem;
-  padding-right: .5rem;
-}
-
-.py-0\.5 {
-  padding-top: .125rem;
-  padding-bottom: .125rem;
 }
 
 .pt-4 {
@@ -744,10 +709,6 @@ img, video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .shadow {
   --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -788,12 +749,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.hover\:scale-110:hover {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -829,17 +784,9 @@ html {
   outline: 2px solid #0000;
 }
 
-.group:hover .group-hover\:opacity-100 {
-  opacity: 1;
-}
-
 @media (width >= 640px) {
   .sm\:gap-3 {
     gap: .75rem;
-  }
-
-  .sm\:p-5 {
-    padding: 1.25rem;
   }
 }
 
@@ -883,10 +830,6 @@ html {
 
   .md\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .md\:p-5 {
-    padding: 1.25rem;
   }
 
   .md\:p-8 {
