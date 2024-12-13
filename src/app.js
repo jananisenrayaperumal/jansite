@@ -68,7 +68,7 @@ const AppLayout = () => {
 	};
 	const MSBingInfo = {
 		title: "Microsoft Bing - Grocery and Receipt scanner ",
-		domain: "Reseach Work",
+		domain: "Research Work",
 		description:
 			"This was a research-based project, initially developed in React Native and later converted into a Progressive Web App (PWA). It incorporates mobile camera functionality within the web app for scanning grocery receipts and offering cashback. Deployed as a mini-app inside the Bing browser, it has now been released as a cashback feature in Microsoft Edge, providing users with a unique and seamless experience across platforms.",
 		image: MSBing,
