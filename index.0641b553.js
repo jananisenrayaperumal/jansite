@@ -3033,9 +3033,9 @@ const AppLayout = ()=>{
         image: (0, _df1PngDefault.default),
         techStack: [
             "React",
-            "Vercel",
-            "TMDB-API",
-            "Firebase"
+            "NextJs",
+            "Redux",
+            "SQL"
         ],
         links: {
             code: "https://github.com/JiyaJanani",
@@ -3064,7 +3064,7 @@ const AppLayout = ()=>{
     };
     const MSBingInfo = {
         title: "Microsoft Bing - Grocery and Receipt scanner ",
-        domain: "Reseach Work",
+        domain: "Research Work",
         description: "This was a research-based project, initially developed in React Native and later converted into a Progressive Web App (PWA). It incorporates mobile camera functionality within the web app for scanning grocery receipts and offering cashback. Deployed as a mini-app inside the Bing browser, it has now been released as a cashback feature in Microsoft Edge, providing users with a unique and seamless experience across platforms.",
         image: (0, _msbingPngDefault.default),
         techStack: [
@@ -3216,7 +3216,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/TechStack":"3Bqtb","./components/AboutMe":"iueDV","./components/ProjectCard":"hPo2v","./components/ContactMe":"5l8U9","./project-images/neou2.png":"kO0AR","./project-images/minecraft.png":"bwxi0","./project-images/df1.png":"3ynJv","./project-images/deere.png":"lwUHH","./project-images/scbank.png":"7UQDT","./project-images/MSBing.png":"kcoWy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./project-images/sarvam.webp":"hsoWY"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/TechStack":"3Bqtb","./components/AboutMe":"iueDV","./components/ProjectCard":"hPo2v","./components/ContactMe":"5l8U9","./project-images/neou2.png":"kO0AR","./project-images/minecraft.png":"bwxi0","./project-images/df1.png":"3ynJv","./project-images/deere.png":"lwUHH","./project-images/scbank.png":"7UQDT","./project-images/MSBing.png":"kcoWy","./project-images/sarvam.webp":"hsoWY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -31241,7 +31241,7 @@ const ContactLinks = ()=>{
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "https://drive.google.com/file/d/1QX4lTw7q6HNRzltm09CQS_qBohB1_J7L/view?usp=drive_link",
+                href: "https://drive.google.com/file/d/1yeqEMqk1x8ccr0H22QfoQaJ913jbKe6l/view?usp=sharing",
                 target: "_blank",
                 download: true,
                 className: "flex items-center px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-500 transition",
