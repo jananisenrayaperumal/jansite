@@ -3006,7 +3006,7 @@ const AppLayout = ()=>{
         ],
         links: {
             code: "https://github.com/JiyaJanani",
-            liveDemo: "https://www.minecraft.net/en-us/about-minecraft"
+            liveDemo: "https://www.minecraft.net/en-us/credits#:~:text=Janani%20Senrayaperumal"
         }
     };
     const neouInfo = {
@@ -3039,8 +3039,8 @@ const AppLayout = ()=>{
         ],
         links: {
             code: "https://github.com/JiyaJanani",
-            liveDemo: "https://ameliebellefilledesign.com/casestudy-diamondfoundry-b2b/",
-            liveDemo1: "https://portal.diamondfoundry.com/",
+            liveDemo: "https://portal.diamondfoundry.com/",
+            liveDemo1: "https://ameliebellefilledesign.com/casestudy-diamondfoundry-b2b/",
             liveDemo2: "https://www.df.com/about-us"
         }
     };
@@ -3078,7 +3078,7 @@ const AppLayout = ()=>{
         ],
         links: {
             code: "https://github.com/JiyaJanani",
-            liveDemo: "https://shop.deere.com/"
+            liveDemo: "https://www.microsoft.com/en-us/edge/shopping?form=MA13FJ&cs=2199494592"
         }
     };
     const SCBankInfo = {
@@ -3096,7 +3096,7 @@ const AppLayout = ()=>{
         ],
         links: {
             code: "https://github.com/JiyaJanani",
-            liveDemo: "https://shop.deere.com/"
+            liveDemo: "https://www.sc.com/en/"
         }
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3104,7 +3104,7 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 89,
+                lineNumber: 95,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3112,17 +3112,17 @@ const AppLayout = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 91,
+                        lineNumber: 97,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutMeDefault.default), {}, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 92,
+                        lineNumber: 98,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _techStackDefault.default), {}, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 93,
+                        lineNumber: 99,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -3131,73 +3131,73 @@ const AppLayout = ()=>{
                         children: "Projects"
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 94,
+                        lineNumber: 100,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: sarvamAIInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 97,
+                        lineNumber: 103,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: johndeereInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 98,
+                        lineNumber: 104,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: SCBankInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 99,
+                        lineNumber: 105,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: MSBingInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 100,
+                        lineNumber: 106,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: neouInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 101,
+                        lineNumber: 107,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: diamondfoundaryInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 102,
+                        lineNumber: 108,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: minecraftInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 103,
+                        lineNumber: 109,
                         columnNumber: 5
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/app.js",
-                lineNumber: 90,
+                lineNumber: 96,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactMeDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 105,
+                lineNumber: 111,
                 columnNumber: 4
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app.js",
-        lineNumber: 88,
+        lineNumber: 94,
         columnNumber: 3
     }, undefined);
 };
@@ -3205,7 +3205,7 @@ _c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 112,
+    lineNumber: 118,
     columnNumber: 13
 }, undefined));
 var _c;
