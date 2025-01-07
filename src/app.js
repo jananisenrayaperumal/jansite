@@ -32,7 +32,10 @@ const AppLayout = () => {
 			"Developed a trial version of Minecraft, including hints screens for Survival and Creative modes that appear as the game progresses. Packaged the game as a free trial version to allow players to experience key features. Conducted extensive developer testing on multiple platforms, including Windows, Android, iOS, Xbox, PlayStation, VR, and Nintendo, ensuring smooth gameplay and compatibility across devices.",
 		image: minecraft,
 		techStack: ["C++", "Java", "Unity"],
-		links: { code: "https://github.com/JiyaJanani", liveDemo: "https://www.minecraft.net/en-us/about-minecraft" }
+		links: {
+			code: "https://github.com/JiyaJanani",
+			liveDemo: "https://www.minecraft.net/en-us/credits#:~:text=Janani%20Senrayaperumal"
+		}
 	};
 	const neouInfo = {
 		title: "Neou",
@@ -52,8 +55,8 @@ const AppLayout = () => {
 		techStack: ["React", "NextJs", "Redux", "SQL"],
 		links: {
 			code: "https://github.com/JiyaJanani",
-			liveDemo: "https://ameliebellefilledesign.com/casestudy-diamondfoundry-b2b/",
-			liveDemo1: "https://portal.diamondfoundry.com/",
+			liveDemo: "https://portal.diamondfoundry.com/",
+			liveDemo1: "https://ameliebellefilledesign.com/casestudy-diamondfoundry-b2b/",
 			liveDemo2: "https://www.df.com/about-us"
 		}
 	};
@@ -73,7 +76,10 @@ const AppLayout = () => {
 			"This was a research-based project, initially developed in React Native and later converted into a Progressive Web App (PWA). It incorporates mobile camera functionality within the web app for scanning grocery receipts and offering cashback. Deployed as a mini-app inside the Bing browser, it has now been released as a cashback feature in Microsoft Edge, providing users with a unique and seamless experience across platforms.",
 		image: MSBing,
 		techStack: ["React", "React-Native", "Hooks", "Azure", "SASS", "React-Contect", "ReSub"],
-		links: { code: "https://github.com/JiyaJanani", liveDemo: "https://shop.deere.com/" }
+		links: {
+			code: "https://github.com/JiyaJanani",
+			liveDemo: "https://www.microsoft.com/en-us/edge/shopping?form=MA13FJ&cs=2199494592"
+		}
 	};
 	const SCBankInfo = {
 		title: "Standrard Charted Bank",
@@ -82,7 +88,7 @@ const AppLayout = () => {
 			"Developed the credit and debit card management module for Standard Chartered Bank, enhancing user experience and integration. Used React and GraphQL to optimize performance and streamline data fetching. Applied TailwindCSS for a mobile-first, responsive design. Focused on security, implementing safe data handling practices, and comprehensive integration tests for reliability, performance, and quality assurance.",
 		image: scbank,
 		techStack: ["React", "Typescript", "Javascript", "GraphQL", "Rest-API", "TailwindCSS"],
-		links: { code: "https://github.com/JiyaJanani", liveDemo: "https://shop.deere.com/" }
+		links: { code: "https://github.com/JiyaJanani", liveDemo: "https://www.sc.com/en/" }
 	};
 	return (
 		<div className="app bg-stone-50">
