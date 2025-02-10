@@ -7,17 +7,8 @@ const Body = () => {
 	return (
 		<div
 			id="home"
-			className="grid w-full gap-8 items-center justify-center mt-10 
+			className="grid w-full gap-8 items-center justify-center 
                 grid-cols-1 md:grid-cols-[auto_auto] md:gap-16">
-			{/* Image Section */}
-			<div className="w-52 h-52 bg-gray-700 rounded-full shadow-lg overflow-hidden mx-auto md:mx-0">
-				<img
-					className="w-full h-full border-2 object-cover object-top rounded-full border-gray-400"
-					src={janImg}
-					alt="circle"
-				/>
-			</div>
-
 			{/* Text and Animation Section */}
 			<div className="text-center pt-4 w-full md:text-left md:w-[450px] lg:w-[450px] flex flex-col justify-center items-center">
 				<TypeAnimation
@@ -38,7 +29,7 @@ const Body = () => {
 					repeat={Infinity}
 					className=""
 				/>
-				<ContactLinks />
+				{/* <ContactLinks /> */}
 			</div>
 		</div>
 	);
