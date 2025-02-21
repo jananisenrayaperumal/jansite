@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
-import TechStack from "./components/TechStack";
 import AboutMe from "./components/AboutMe";
 import ProjectCard from "./components/ProjectCard";
 import ContactMe from "./components/ContactMe";
@@ -13,6 +12,7 @@ import deere from "./project-images/deere.png";
 import scbank from "./project-images/scbank.png";
 import MSBing from "./project-images/MSBing.png";
 import sarvamImg from "./project-images/sarvam.webp";
+import Skills from "./components/TechStack";
 
 const AppLayout = () => {
 	const sarvamAIInfo = {
@@ -96,7 +96,7 @@ const AppLayout = () => {
 			<div className="flex flex-col justify-center items-center">
 				<Body />
 				<AboutMe />
-				<TechStack />
+				<Skills />
 				<h2 id="projects" className="text-3xl font-bold text-center m-4 text-gray-800">
 					Projects
 				</h2>
