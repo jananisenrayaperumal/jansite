@@ -15,6 +15,7 @@ import sarvamImg from "./project-images/sarvam.webp";
 import Skills from "./components/TechStack";
 
 const AppLayout = () => {
+	//TODO move to JSON files
 	const sarvamAIInfo = {
 		domain: "AI-driven Applications",
 		title: "Sarvam AI",
