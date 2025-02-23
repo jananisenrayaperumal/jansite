@@ -7,7 +7,7 @@ const Body = () => {
 	return (
 		<div
 			id="home"
-			className="grid w-full gap-2 items-center justify-center mt-6 
+			className="grid w-full gap-2 items-center justify-center mt-8 
                 grid-cols-1 md:grid-cols-[auto_auto] md:gap-4">
 			{/* Image Section */}
 			<div className="w-52 h-52 bg-gray-700 rounded-full shadow-lg overflow-hidden mx-auto md:mx-0">
