@@ -11,11 +11,11 @@ const skills = [
 	"Redux",
 	"HTML5",
 	"CSS3",
-	"GraphQL",
+	"React-Testing",
 	"SQL",
 	"Webpack",
 	"Azure",
-	"React-Testing"
+	"GraphQL"
 ];
 
 const importantSkills = [
@@ -51,14 +51,14 @@ const SkillCard = ({ skill, isImportant, isWide }) => {
 
 const Skills = () => {
 	return (
-		<section>
+		<div>
 			{/* Title Section */}
-			<h2 id="projects" className="text-3xl font-bold text-center m-2 mb-4 text-gray-800">
+			<h2 id="projects" className="text-3xl font-bold text-center m-4 text-gray-800">
 				Skills
 			</h2>
 
 			{/* Skills Grid */}
-			<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 max-w-screen-lg mx-auto grid-flow-row-dense">
+			<div className="grid grid-cols-7 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-2 max-w-screen-lg mx-auto grid-flow-row-dense">
 				{skills.map((skill, index) =>
 					<SkillCard
 						key={index}
@@ -68,7 +68,7 @@ const Skills = () => {
 					/>
 				)}
 			</div>
-		</section>
+		</div>
 	);
 };
 
