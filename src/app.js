@@ -101,8 +101,8 @@ const AppLayout = () => {
 					style={{ backgroundImage: `url(${bgImg})`, backgroundPosition: "center 63%" }}
 					className="w-screen min-h-screen bg-cover bg-center">
 					<Body />
+					<AboutMe />
 				</div>
-				<AboutMe />
 				<Skills />
 
 				<h2 id="projects" className="text-3xl font-bold text-center m-4 text-gray-800">
