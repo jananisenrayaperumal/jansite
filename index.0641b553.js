@@ -2955,8 +2955,6 @@ var _header = require("./components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _body = require("./components/Body");
 var _bodyDefault = parcelHelpers.interopDefault(_body);
-var _techStack = require("./components/TechStack");
-var _techStackDefault = parcelHelpers.interopDefault(_techStack);
 var _aboutMe = require("./components/AboutMe");
 var _aboutMeDefault = parcelHelpers.interopDefault(_aboutMe);
 var _projectCard = require("./components/ProjectCard");
@@ -2977,7 +2975,12 @@ var _msbingPng = require("./project-images/MSBing.png");
 var _msbingPngDefault = parcelHelpers.interopDefault(_msbingPng);
 var _sarvamWebp = require("./project-images/sarvam.webp");
 var _sarvamWebpDefault = parcelHelpers.interopDefault(_sarvamWebp);
+var _techStack = require("./components/TechStack");
+var _techStackDefault = parcelHelpers.interopDefault(_techStack);
+var _bgWebp = require("./img/bg.webp");
+var _bgWebpDefault = parcelHelpers.interopDefault(_bgWebp);
 const AppLayout = ()=>{
+    //TODO move to JSON files
     const sarvamAIInfo = {
         domain: "AI-driven Applications",
         title: "Sarvam AI",
@@ -3104,25 +3107,38 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 95,
+                lineNumber: 97,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "flex flex-col justify-center items-center",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        style: {
+                            backgroundImage: `url(${(0, _bgWebpDefault.default)})`,
+                            backgroundPosition: "center 63%"
+                        },
+                        className: "w-screen min-h-screen bg-cover bg-center",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
+                                fileName: "src/app.js",
+                                lineNumber: 103,
+                                columnNumber: 6
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutMeDefault.default), {}, void 0, false, {
+                                fileName: "src/app.js",
+                                lineNumber: 104,
+                                columnNumber: 6
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/app.js",
-                        lineNumber: 97,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutMeDefault.default), {}, void 0, false, {
-                        fileName: "src/app.js",
-                        lineNumber: 98,
+                        lineNumber: 100,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _techStackDefault.default), {}, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 99,
+                        lineNumber: 106,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -3131,73 +3147,73 @@ const AppLayout = ()=>{
                         children: "Projects"
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 100,
+                        lineNumber: 108,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: sarvamAIInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 103,
+                        lineNumber: 111,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: johndeereInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 104,
+                        lineNumber: 112,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: SCBankInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 105,
+                        lineNumber: 113,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: MSBingInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 106,
+                        lineNumber: 114,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: neouInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 107,
+                        lineNumber: 115,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: diamondfoundaryInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 108,
+                        lineNumber: 116,
                         columnNumber: 5
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectCardDefault.default), {
                         projectInfo: minecraftInfo
                     }, void 0, false, {
                         fileName: "src/app.js",
-                        lineNumber: 109,
+                        lineNumber: 117,
                         columnNumber: 5
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/app.js",
-                lineNumber: 96,
+                lineNumber: 99,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactMeDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 111,
+                lineNumber: 119,
                 columnNumber: 4
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app.js",
-        lineNumber: 94,
+        lineNumber: 96,
         columnNumber: 3
     }, undefined);
 };
@@ -3205,7 +3221,7 @@ _c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 118,
+    lineNumber: 126,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3216,7 +3232,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Body":"8yaV8","./components/TechStack":"3Bqtb","./components/AboutMe":"iueDV","./components/ProjectCard":"hPo2v","./components/ContactMe":"5l8U9","./project-images/neou2.png":"kO0AR","./project-images/minecraft.png":"bwxi0","./project-images/df1.png":"3ynJv","./project-images/deere.png":"lwUHH","./project-images/scbank.png":"7UQDT","./project-images/MSBing.png":"kcoWy","./project-images/sarvam.webp":"hsoWY"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/AboutMe":"iueDV","./components/ProjectCard":"hPo2v","./components/ContactMe":"5l8U9","./project-images/neou2.png":"kO0AR","./project-images/minecraft.png":"bwxi0","./project-images/df1.png":"3ynJv","./project-images/deere.png":"lwUHH","./project-images/scbank.png":"7UQDT","./project-images/MSBing.png":"kcoWy","./project-images/sarvam.webp":"hsoWY","./components/TechStack":"3Bqtb","./img/bg.webp":"8qhc7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -27477,7 +27493,7 @@ const Header = ()=>{
     _s();
     const [menuOpen, setMenuOpen] = (0, _react.useState)(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex justify-between items-center gap-6 p-5 md:p-8 bg-amber-400 sticky top-0 z-50 ",
+        className: "flex justify-between items-center gap-6 p-2 md:p-6 bg-[#dfe3eb] sticky top-0 z-50 shadow-md ",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                 className: "text-3xl font-extrabold",
@@ -30465,7 +30481,7 @@ var _contactLinksDefault = parcelHelpers.interopDefault(_contactLinks);
 const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "home",
-        className: "grid w-full gap-8 items-center justify-center mt-10  grid-cols-1 md:grid-cols-[auto_auto] md:gap-16",
+        className: "grid w-full gap-2 items-center justify-center mt-8  grid-cols-1 md:grid-cols-[auto_auto] md:gap-4",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "w-52 h-52 bg-gray-700 rounded-full shadow-lg overflow-hidden mx-auto md:mx-0",
@@ -31207,7 +31223,7 @@ const ContactLinks = ()=>{
         className: "flex items-center justify-center gap-4 mt-10",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "https://github.com/JiyaJanani",
+                href: "https://github.com/jananisenrayaperumal",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg shadow hover:bg-gray-700 transition",
@@ -31224,7 +31240,7 @@ const ContactLinks = ()=>{
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "https://www.linkedin.com/in/jiya-janani/",
+                href: "https://www.linkedin.com/in/jananisenrayaperumal/",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "flex items-center px-4 py-2 bg-linkedin-blue text-white rounded-lg shadow hover:bg-blue-500 transition",
@@ -31241,7 +31257,7 @@ const ContactLinks = ()=>{
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "https://drive.google.com/file/d/1yeqEMqk1x8ccr0H22QfoQaJ913jbKe6l/view?usp=sharing",
+                href: "https://docs.google.com/document/d/e/2PACX-1vTRpb06in5BxOebhJABv2L-EOgKoSUXRRzJzG0_EiAwMWLP1xBM5MMk_NnXTbVLsJHS2S-Nx0pwRBXs/pub",
                 target: "_blank",
                 download: true,
                 className: "flex items-center px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-500 transition",
@@ -31274,236 +31290,7 @@ $RefreshReg$(_c, "ContactLinks");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3Bqtb":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$8d44 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8d44.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const TechStack = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "skills",
-        className: "py-10 max-w-3xl",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "text-3xl font-bold text-center mb-8 text-gray-800",
-                children: "My Skills"
-            }, void 0, false, {
-                fileName: "src/components/TechStack.js",
-                lineNumber: 4,
-                columnNumber: 4
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-wrap justify-center align-center gap-6 p-4",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=react",
-                        alt: "React"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 7,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=javascript",
-                        alt: "JavaScript"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 8,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=typescript",
-                        alt: "TypeScript"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 9,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=vue",
-                        alt: "Vue"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 10,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=html",
-                        alt: "HTML"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 11,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=redux",
-                        alt: "Redux"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 12,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=tailwindcss",
-                        alt: "Tailwind CSS"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 13,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=css",
-                        alt: "CSS"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 14,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=sass",
-                        alt: "Sass"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 15,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=bootstrap",
-                        alt: "Bootstrap"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 16,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=cpp",
-                        alt: "C++"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 17,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=codepen",
-                        alt: "CodePen"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 18,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=docker",
-                        alt: "Docker"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 19,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=figma",
-                        alt: "Figma"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 20,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=git",
-                        alt: "Git"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 21,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=github",
-                        alt: "GitHub"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 22,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=ai",
-                        alt: "AI"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 23,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=jest",
-                        alt: "Jest"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 24,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=nodejs",
-                        alt: "Node.js"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 25,
-                        columnNumber: 5
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "h-12",
-                        src: "https://skillicons.dev/icons?i=npm",
-                        alt: "NPM"
-                    }, void 0, false, {
-                        fileName: "src/components/TechStack.js",
-                        lineNumber: 26,
-                        columnNumber: 5
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/TechStack.js",
-                lineNumber: 5,
-                columnNumber: 4
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/TechStack.js",
-        lineNumber: 3,
-        columnNumber: 3
-    }, undefined);
-};
-_c = TechStack;
-exports.default = TechStack;
-var _c;
-$RefreshReg$(_c, "TechStack");
-
-  $parcel$ReactRefreshHelpers$8d44.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iueDV":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iueDV":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$4315 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -61292,6 +61079,226 @@ module.exports = require("abf1f68bc45c52e2").getBundleURL('lPpKD') + "MSBing.07a
 },{"abf1f68bc45c52e2":"lgJ39"}],"hsoWY":[function(require,module,exports,__globalThis) {
 module.exports = require("54c5741137caad73").getBundleURL('lPpKD') + "sarvam.24145f15.webp" + "?" + Date.now();
 
-},{"54c5741137caad73":"lgJ39"}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
+},{"54c5741137caad73":"lgJ39"}],"3Bqtb":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$8d44 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8d44.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const skills = [
+    {
+        name: "JavaScript",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+        name: "TypeScript",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+    },
+    {
+        name: "React",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+    },
+    {
+        name: "HTML",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+        name: "CSS",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+    },
+    {
+        name: "TailwindCSS",
+        logo: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+    },
+    {
+        name: "Git",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+    },
+    {
+        name: "Express",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+    },
+    {
+        name: "NodeJS",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+    },
+    {
+        name: "Postman",
+        logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+    },
+    {
+        name: "Flutter",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg"
+    },
+    {
+        name: "ReactNative",
+        logo: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png"
+    },
+    {
+        name: "Bootstrap",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+    },
+    {
+        name: "Redux",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+    },
+    {
+        name: "Sass",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+    },
+    {
+        name: "GitHub",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+        name: "Webpack",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+    },
+    {
+        name: "Next.js",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+    },
+    {
+        name: "MaterialUI",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+    },
+    {
+        name: "Jest",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+    },
+    {
+        name: "Redux",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+    },
+    {
+        name: "Vue.js",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+    },
+    {
+        name: "Docker",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+    },
+    {
+        name: "Ant Design",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/antdesign/antdesign-original.svg"
+    },
+    {
+        name: "MySQL",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mysql/mysql-original.svg"
+    },
+    {
+        name: "Mongo DB",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+    },
+    {
+        name: "Heroku",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg"
+    },
+    {
+        name: "Firebase",
+        logo: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+    }
+];
+// On-Load and On-Hover animation for Skill Cards
+const SkillCard = ({ skill, logo })=>{
+    _s();
+    const cardRef = (0, _react.useRef)(null);
+    const [isVisible, setIsVisible] = (0, _react.useState)(false);
+    (0, _react.useEffect)(()=>{
+        const observer = new IntersectionObserver((entries)=>{
+            const [entry] = entries;
+            if (entry.isIntersecting) setIsVisible(true);
+        }, {
+            threshold: 0.25
+        }); // Trigger animation when 50% of the element is visible
+        if (cardRef.current) observer.observe(cardRef.current);
+        return ()=>observer.disconnect();
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        ref: cardRef,
+        className: `py-2 px-5 bg-gray-50 mx-2 mt-6 rounded-lg flex items-center justify-center w-32 md:w-40 transition-all duration-500 ease-in-out transform ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"} hover:scale-105 cursor-pointer hover:bg-gray-200 hover:text-blue-600`,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: logo,
+                alt: skill,
+                className: "w-10"
+            }, void 0, false, {
+                fileName: "src/components/TechStack.js",
+                lineNumber: 79,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                className: "text-base font-medium ml-3",
+                children: skill
+            }, void 0, false, {
+                fileName: "src/components/TechStack.js",
+                lineNumber: 80,
+                columnNumber: 4
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/TechStack.js",
+        lineNumber: 74,
+        columnNumber: 3
+    }, undefined);
+};
+_s(SkillCard, "nYgjwsKtvLdmjP2mHShow/lH2zA=");
+_c = SkillCard;
+const Skills = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "my-10",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "text-3xl font-bold text-center text-gray-800 mb-6",
+                children: "My Technical Skills"
+            }, void 0, false, {
+                fileName: "src/components/TechStack.js",
+                lineNumber: 91,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 max-w-screen-lg mx-auto mt-8",
+                children: skills.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SkillCard, {
+                        skill: skill.name,
+                        logo: skill.logo
+                    }, index, false, {
+                        fileName: "src/components/TechStack.js",
+                        lineNumber: 95,
+                        columnNumber: 35
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/components/TechStack.js",
+                lineNumber: 94,
+                columnNumber: 4
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/TechStack.js",
+        lineNumber: 89,
+        columnNumber: 3
+    }, undefined);
+};
+_c1 = Skills;
+exports.default = Skills;
+var _c, _c1;
+$RefreshReg$(_c, "SkillCard");
+$RefreshReg$(_c1, "Skills");
+
+  $parcel$ReactRefreshHelpers$8d44.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"8qhc7":[function(require,module,exports,__globalThis) {
+module.exports = require("269a166f2eb15760").getBundleURL('lPpKD') + "bg.d8243788.webp" + "?" + Date.now();
+
+},{"269a166f2eb15760":"lgJ39"}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
 
 //# sourceMappingURL=index.0641b553.js.map
