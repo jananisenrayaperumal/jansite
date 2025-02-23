@@ -13,6 +13,7 @@ import scbank from "./project-images/scbank.png";
 import MSBing from "./project-images/MSBing.png";
 import sarvamImg from "./project-images/sarvam.webp";
 import Skills from "./components/TechStack";
+import bgImg from "./img/bg.webp";
 
 const AppLayout = () => {
 	//TODO move to JSON files
@@ -94,10 +95,16 @@ const AppLayout = () => {
 	return (
 		<div className="app bg-stone-50">
 			<Header />
+
 			<div className="flex flex-col justify-center items-center">
-				<Body />
+				<div
+					style={{ backgroundImage: `url(${bgImg})`, backgroundPosition: "center 63%" }}
+					className="w-screen min-h-screen bg-cover bg-center">
+					<Body />
+				</div>
 				<AboutMe />
 				<Skills />
+
 				<h2 id="projects" className="text-3xl font-bold text-center m-4 text-gray-800">
 					Projects
 				</h2>
