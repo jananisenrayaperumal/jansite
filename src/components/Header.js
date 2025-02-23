@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	return (
-		<div className="flex justify-between items-center gap-6 p-2 md:p-6 bg-amber-400 sticky top-0 z-50 ">
+		<div className="flex justify-between items-center gap-6 p-2 md:p-6 bg-neutral-100 sticky top-0 z-50 ">
 			<label className="text-3xl font-extrabold">Janani Senrayaperumal</label>
 			<div className="md:hidden">
 				<button className="focus:outline-none" onClick={() => setMenuOpen(!menuOpen)}>
