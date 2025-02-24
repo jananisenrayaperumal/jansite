@@ -14,6 +14,10 @@ const skills = [
 	{ name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
 	{ name: "TailwindCSS", logo: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
 	{ name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
+	{ name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+	{ name: "Redux", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+	{ name: "Vue.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
+	{ name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
 	{
 		name: "Express",
 		logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
@@ -23,22 +27,18 @@ const skills = [
 		logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
 	},
 	{ name: "Postman", logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
-	{ name: "Flutter", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg" },
 	{ name: "ReactNative", logo: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
 	{ name: "Bootstrap", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" },
 	{ name: "Redux", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
 	{ name: "Sass", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" },
 	{ name: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
 	{ name: "Webpack", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" },
-	{ name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
 	{
 		name: "MaterialUI",
 		logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
 	},
 	{ name: "Jest", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
-	{ name: "Redux", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
-	{ name: "Vue.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
-	{ name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+	{ name: "Flutter", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg" },
 	{ name: "Ant Design", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/antdesign/antdesign-original.svg" },
 	{
 		name: "MySQL",
@@ -73,11 +73,11 @@ const SkillCard = ({ skill, logo }) => {
 	return (
 		<div
 			ref={cardRef}
-			className={`py-2 px-5 bg-gray-50 mx-2 mt-6 rounded-lg flex items-center justify-center w-32 md:w-40 transition-all duration-500 ease-in-out transform ${isVisible
+			className={`py-2 px-2 bg-gray-100 mt-4 rounded-lg flex items-center justify-start transition-all duration-500 ease-in-out transform ${isVisible
 				? "opacity-100 translate-y-0"
-				: "opacity-0 translate-y-8"} hover:scale-105 cursor-pointer hover:bg-gray-200 hover:text-blue-600`}>
+				: "opacity-0 translate-y-8"} hover:scale-105 cursor-pointer hover:bg-gray-300 hover:text-blue-600`}>
 			<img src={logo} alt={skill} className="w-10" />
-			<h4 className="text-base font-medium ml-3">
+			<h4 className="text-base font-medium ml-2">
 				{skill}
 			</h4>
 		</div>
